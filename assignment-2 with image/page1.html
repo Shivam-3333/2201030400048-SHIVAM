@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loginpage</title>
+        
+        <style>
+            
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; 
+           
+        }
+       
+        .formbox {
+            background-color:aliceblue;
+            padding: 20px;
+            width: 500px; 
+            height: 580px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        
+        .formbox input {
+            margin: 5px;
+            padding: 10px;
+            border-radius: 10px;
+            width: 100%; 
+        }
+        
+        .formbox button {
+            margin-top: 5px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: rgb(33, 203, 84);
+            color: rgb(247, 247, 247);
+            border: none;
+            cursor: pointer;
+            margin-left: 120px;
+            width: 150px;
+            
+        }
+        .formbox img{
+            height: 150px;
+            width: 150px;
+        }
+        .fa {
+  padding: 10px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background:  #565352;
+  color: white;
+  margin-left: 130px;
+}
+.fa-google {
+  background: #565352;
+  color: white;
+}
+p{
+    text-align: right;
+    margin-left:100px;
+}
+h4{
+    margin-left: 170px;
+}
+h5{
+    margin-left: 110px;
+}
+    </style>
+    </head>
+    <body>
+        <div class="formbox">
+            <img src="C:\Users\Shivam\Downloads\Ellipse 1.png" alt>
+            <h1>Login Form</h1>
+            <form action>
+                <div class="inputsbox">
+                    <input type="text" name="username" placeholder="Username">
+                    <input type="password" name="password"
+                        placeholder="Password">
+                        <p>forget password?</p>
+                    <button type="submit" name="login">Login</button>
+                    <h5>Don't have an account, sign now.</h5>
+                    <h4>Or</h4>
+                    <a href="#" class="fa fa-facebook"></a>
+
+                    <a href="#" class="fa fa-google"></a>
+                </div>
+               
+            </form>
+        </div>
+    </body>
+</html>

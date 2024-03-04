@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginpage</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            position: absolute;
+            width: 311px;
+            height: 300px;
+            left: 430px;
+            top: 10px;
+            background: url(p12.jpg);
+        }
+        .form-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 350px;
+            padding: 90px;
+            background-color: #ffffff;
+            border: 2px solid #000000;
+            border-radius: 4px;
+           
+        }
+        .form-container img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 200%;
+        }
+        .username {
+            margin-top: 10px;
+            font-size: 18px;
+            margin-top: 5px;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        .inches, .kgs {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+        .group-2 {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #14be31;
+            color: #ffffff;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .group-2:hover {
+            background-color: #0056b3;
+        }
+        input[type="text"], input[type="number"] {
+            margin-top: 5px;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #050000;
+            border-radius: 5px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <img src="C:\Users\Shivam\Downloads\Ellipse 1.png" alt="User Image">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="number" min="13" placeholder="Age (13+)"><br>
+            <div class="auto-group">
+                <input type="number" placeholder="Height">
+                <p class="inches"></p>
+            </div>
+            <div class="auto-group">
+                <input type="number" placeholder="Weight">
+                <p class="kgs"></p>
+            </div>
+            <div class="group-2">Get Started</div>
+        </div>
+    </div>
+</body>
+</html>
